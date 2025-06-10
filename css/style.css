@@ -1,0 +1,478 @@
+/* Navigation Menu */
+/* Navbar background color */
+.navbar {
+  background-color: #556b2f !important; /* darkolivegreen */
+  padding: 0.5rem 1rem;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important
+  
+  
+}
+
+/* Navbar link default state */
+.navbar-nav .nav-link {
+  color: #FFFFFF !important;
+  background-color: transparent;
+ /* border-radius: 1rem;*/
+  transition: all 0.3s ease;
+ /* padding: 1.5rem 1rem;*/
+  margin: 0 0.5rem;
+  text-decoration: none;
+  border-top-left-radius: 1rem;
+ 
+  
+}
+
+/* Navbar link hover state */
+.navbar-nav .nav-link:hover {
+  color: #FAFAD2 !important;           /* lightgoldenrodyellow */
+  background-color: #6B8E23 !important;/* olive drab */
+ /* border-radius: 1rem;*/
+  border-top-left-radius: 1rem;
+ 
+}
+
+/* Single clean version of .custom-btn */
+.custom-btn {
+  background-color: darkolivegreen;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #556b2f;
+  color: white;
+}
+
+/*end of navigation */
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding-top: 5px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;  /* Standard, readable on all devices */
+  font-size: clamp(15px, 1.2vw, 18px);
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+    overflow-y: scroll;
+  }  
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+.header {
+      width: 100%;
+      padding: 1.5rem 2rem ;
+      padding-bottom: 0.5rem;
+      background: #e2e3de;
+      border: none;
+      margin-bottom: 1rem; /* space below header */
+    }
+ 
+  
+
+ img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} 
+
+
+.di_no {
+  display: none;
+}
+
+/*
+.custom-btn {
+  background-color: darkolivegreen;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #556b2f;
+  color: white;
+}
+
+.btn-outline-light {
+  border: 2px solid white;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: darkolivegreen;
+}
+  */
+p  {
+  text-align: left;
+}
+.square-img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-color: #829f8d;
+  border-radius: 22px;
+  
+}
+h4{
+  text-align: left;
+  color:darkolivegreen;
+}
+.custom-btn {
+  background-color: darkolivegreen;
+  color: white;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: #556b2f; /* darker shade on hover */
+  color: white;
+}
+h1  {
+  color: #fb9b27;
+  font-size: 36px;
+  font-weight: bold;
+   text-align: left;
+  }
+h2  {
+  color: #678760;
+  text-align: left;
+   font-size: 28px;
+   font-weight: bold;
+  
+}
+h3  {
+  color: #678760;
+  text-align: left;
+  font-size: 22px
+ 
+}
+.h1-title {
+  color:#fb9b27;
+  font-size: 3rem;
+} 
+.h2-title {
+  color: ghostwhite;
+  font-weight: bolder;
+}
+.hero-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #A0522D;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.project-card {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  background-color: #eef1ea; /* subtle tint if you like */
+}
+.modern-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.modern-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.modern-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(135deg, darkolivegreen, #1b2331);
+  border-radius: 0%;
+}
+
+.bg-accent {
+  background: #d47528;
+  padding: 30px;
+  height: 100%;
+}
+
+.custom-btn {
+  background-color: darkolivegreen;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #556b2f;
+  color: white;
+}
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* vertically center */
+  justify-content: flex-start; /* align to the left */
+  padding-left: 60px; /* some padding from the edge */
+  color: white;
+  text-align: left; /* ensure text is left-aligned */
+  margin-top: 0;
+  padding-top: 0;
+}
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  color: white;
+  max-width: 600px;
+  background: rgba(65, 60, 60, 0.4); /* Semi-transparent black */
+  padding: 2rem;
+  border-radius: 10px; /* Rounded corners for a clean look */
+}
+
+.content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.content .lead {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .content h1 {
+      font-size: 2.5rem;
+  }
+  .content .lead {
+      font-size: 1.2rem;
+  }
+}
+.card-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background: #f5f5f5;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 400px;
+}
+.fixed-carousel {
+  position: relative;
+  width: 100%;
+  height: 250px; /* Fixed height */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.carousel-images {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px; /* Match fixed height */
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-img.active {
+  opacity: 1;
+  position: relative;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+@keyframes fadeSlideIn {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.content h1, .content .lead, .content a {
+  opacity: 0;
+  animation: fadeSlideIn 1s ease forwards;
+}
+
+.content h1 {
+  animation-delay: 0.2s;
+}
+
+.content .lead:nth-of-type(1) {
+  animation-delay: 0.6s;
+}
+
+.content .lead:nth-of-type(2) {
+  animation-delay: 0.9s;
+}
+
+.content a {
+  animation-delay: 1.2s;
+}
+  
+  #cycle-box {
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .stage {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+ 
+     .map-container {
+      width: 80%;
+      max-width: 800px;
+      margin: 1rem auto;
+      border: 1px solid #ccc;
+      border-radius: 1px;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: 0;
+    }
+    
+
+   
+    
+    .navbar-nav .nav-link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+.navbar-logo {
+  height: 60px;
+  max-height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.logo_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
